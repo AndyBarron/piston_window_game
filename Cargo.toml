@@ -1,0 +1,16 @@
+[package]
+name = "piston_window_game"
+version = "0.1.0"
+authors = ["Andy Barron <AndrewLBarron@gmail.com>"]
+
+description = "2D game scaffold for `piston-window`"
+repository = "https://github.com/andybarron/piston_window_game"
+readme = "./README.md"
+keywords = ["piston", "window", "game", "graphics", "2d"]
+license = "MIT"
+
+[dependencies]
+piston_window = "^0.3.0"
+piston2d-gfx_graphics = "^0.1.22"
+gfx = "^0.6.3"
+gfx_device_gl = "^0.4.0"
